@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Kendall Nakai</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World";
+    }
+
+    function wheee() {
+    var temp = document.getElementsByTagName("template")[0];
+    var clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
+    }
+</script>
+
+<body>
+    <header>
+        <h1>Kendall Nakai</h1>
+        <h2><em>Designer</em></h2>
+        <code>Design so others can blossom</code>
+        <h3>Design portfolio: <i><strong>kendallnakai.com</strong></i></h3>
+        <pre>Hi, I'm Kendall! I go to UCSD</pre>
+    </header>
+    
+    <hr>
+
+    <aside>
+        <p>About me</p>
+        <p>Classes</p>
+        <p>Things I've made</p>
+    </aside>
+
+    <main>
+        <section>
+            <h2>About me</h2>
+            <figure><img src="me.jpg" alt="Me>" width="333" height="333"></figure>
+            <figcaption><b>A self portrait</b></figcaption>
+        </section>
+
+        <br>
+        <br>
+
+        <button onclick="myFunction()">Test this button out first</button>
+        <p id="demo"></p>
+
+        <br>
+        <br> 
+
+        <section>
+            <h2>Classes</h2>
+            <div>
+                <h3>Classes I'm taking</h3>
+                <ul>
+                    <li>CSE 110</li>
+                    <li>CSE 216</li>
+                    <li>COGS 220</li>
+                    <li>COGS 107A</li>
+                    <li>COGS 101B</li>
+                </ul>
+            </div>
+            <div>
+              <h3>Some of my favorite classes</h3>
+                <ol>
+                    <li>COGS 124</li>
+                    <li>COGS 127</li>
+                    <li>CSE 100</li>
+                    <li>CSE 8B</li>
+                    <li>DSGN 160</li>
+                </ol>
+            </div>
+        </section>
+
+        <br>
+        <br> 
+
+        <section>
+            <h2>Things I've made</h2>
+            <span>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>ACM Membership Portal</td>
+                        <td><a href="https://kendallnakai.com/acm.html">kendallnakai.com/acm.html</a></td>
+                    </tr>
+                    <tr>
+                        <td>Yelp Messaging Redesign</td>
+                        <td><a href="https://kendallnakai.com/yelp.html">kendallnakai.com/yelp.html</a></td>
+                    </tr>
+                    <tr>
+                        <td>Daily UI Challenge</td>
+                        <td><a href="https://kendallnakai.com/daily-ui.html">kendallnakai.com/daily-ui.html</a></td>
+                    </tr>
+                    <tr>
+                        <td>Micro-mobility Challenge</td>
+                        <td><a href="https://kendallnakai.com/micro-mobility.html">kendallnakai.com/micro-mobility.html</a></td>
+                    </tr>
+                </table>
+            </span>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <h2>My hobbies</h2>
+            <summary>I try to find balance in life through hobbies</summary>
+            <caption>Click the details column to see a list</caption>
+            <details>
+                <table>
+                    <colgroup>
+                    <col span="1" style="background-color:lightgrey">
+                    <col style="background-color:pink">
+                    </colgroup>
+                    <tr>
+                        <th>Hobbies</th>
+                        <th>Why I like them</th>
+                    </tr>
+                    <tr>
+                        <td>Photography</td>
+                        <td>Great memories</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Can contribute to accessible design</td>
+                    </tr>
+                    <tr>
+                        <td>Boba</td>
+                        <td>Delicious!</td>
+                    </tr>
+                </table>
+            </details>
+
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <h2>Call it *ART*</h2>
+            <picture>
+                <img src="sunset.jpg" width="333" height="500">
+                <img src="edgy.jpg" width="333" height="500">
+            </picture>
+
+            <svg width="100" height="100">
+                <circle cx="3" cy="3" r="3"
+                stroke="green" stroke-width="2" fill="lightgrey" />
+              </svg>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <h2>My schedule</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=a2VuZGFsbG5ha2FpQGdtYWlsLmNvbQ&amp;src=Z3J2dDBnaGQ3YXFkZGRmMnJqY2gwMmJydXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MnJ1M2g2NGlzZm5jdWhkMjhvMjdmbDhpbDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=N3ZpZWdibGhoMmwzMjM1dGhhOG44NHU2bThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dHJhbmNhbHZpbjk3QGdtYWlsLmNvbQ&amp;color=%23ca508c&amp;color=%2367bdcc&amp;color=%23cccccc&amp;color=%23000000&amp;color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="Kendall"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Joy">
+              </form>
+              
+              <form action="/action_page.php">
+                <label for="cars">Choose a boba:</label>
+                <select name="boba">
+                  <optgroup label="Milk tea">
+                    <option value="Jasmine">Volvo</option>
+                    <option value="Oolong">Saab</option>
+                  </optgroup>
+                  <optgroup label="Fruit tea">
+                    <option value="strawberry">Mercedes</option>
+                    <option value="mango">Audi</option>
+                  </optgroup>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+
+        <section>
+            <h2>Random</h2>
+            <h3>Look I can copy myself!</h3>
+            <button onclick="wheee()">Click here</button>
+            <template>
+                <h2>Wheeee</h2>
+                <img src="me.jpg" width="333" height="333">
+            </template>
+
+            <h3>Draw here<h3>
+            <canvas id="myCanvas" width="200" height="100"></canvas>
+
+            <h3>My favorite song</h3>
+                <audio controls>
+                    <source src="song.mp3" type="audio/mpeg">
+                </audio>
+
+            <h3>A video of a sunset</h3>
+            <video width="320" height="240" controls>
+                <source src="sunset.mp4" type="video/mp4">
+            </video>
+
+            <h3>A vector image</h3>
+            <svg width="400" height="180">
+                <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                style="fillblack;stroke-width:5;opacity:0.5" />
+              </svg>
+
+            <form action="/action_page.php">
+            <label for="Milk tea">Milk tea</label>
+            <input type="radio" name="boba" id="Milk tea" value="Milk tea"><br>
+            <label for="Fruit tea">Fruit tea</label>
+            <input type="radio" name="gender" id="Fruit tea" value="Fruit tea"><br>
+            <input type="submit" value="Submit">
+            </form>
+
+            <form action="/action_page.php">
+                <fieldset>
+                 <legend>BOBA:</legend>
+                 <label for="milk">Favorite milk tea:</label>
+                 <input type="text" id="milk" name="milk"><br><br>
+                 <label for="fruit">Favorite fruit tea:</label>
+                 <input type="text" id="fruit" name="fruit"><br><br>
+                 <label for="topping">Favorite topping:</label>
+                 <input type="text" id="topping" name="topping"><br><br>
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+
+            <h2>TYPE HERE</h2>
+            <textarea rows="4" cols="50"> YEET
+            </textarea>
+
+            <form action="/action_page.php" method="get">
+                <label for="color">Choose a color:</label>
+                <input list="color" name="color" id="color">
+                <datalist id="color">
+                  <option value="Pink">
+                  <option value="Blue">
+                  <option value="Purple">
+                </datalist>
+                <input type="submit">
+              </form>
+        </section>
+          
+
+    </main>
+
+    <footer>
+        <p>Kendall Joy 2021</p>
+    </footer>
+</body>  
+</html>
+
