@@ -132,8 +132,12 @@
         <section>
             <h2>Call it *ART*</h2>
             <picture>
-                <source srcset="sunset.jpg">
-                <source srcset="edgy.jpg">
+                <source srcset="sunset.jpg"
+                media="(max-width: 300px)">
+                <img src="sunset.jpg" alt="sunset" />
+                <source srcset="edgy.jpg"
+                media="(max-width: 300px)">
+                <img src="edgy.jpg" alt="sunset" />
             </picture>
 
             <svg width="100" height="100">
@@ -232,19 +236,14 @@
             <textarea rows="4" cols="50"> YEET
             </textarea>
 
-            <form action="/action_page.php" method="get">
-                <label for="color">Choose a color:</label>
-                <input list="colors" name="colors" id="colors">
-                <datalist id="colors">
-                  <option value="Pink">
-                  <option value="Blue">
-                  <option value="Purple">
-                </datalist>
-                <input type="submit">
-              </form>
-        </section>
-          
-
+            <label for="topping-choice">Choose a topping:</label>
+            <input list="boba-toppings" id="boba-toppings" name="boba-toppings" />
+            <datalist id="boba-toppings">
+                <option value="Boba">
+                <option value="Eggpudding">
+                <option value="Jelly">
+            </datalist>
+        </section>  
     </main>
 
     <footer>
