@@ -132,9 +132,10 @@
         <section>
             <h2>Call it *ART*</h2>
             <picture>
-                <img src="sunset.jpg" alt="sunset" />
-                <img src="edgy.jpg" alt="sunset" />
+                <source media="(min-width:650px)" srcset="sunset.jpg">
             </picture>
+            <img src="sunset.jpg" alt="sunset" />
+            <img src="edgy.jpg" alt="sunset" />
 
             <svg width="100" height="100">
                 <circle cx="3" cy="3" r="3"
